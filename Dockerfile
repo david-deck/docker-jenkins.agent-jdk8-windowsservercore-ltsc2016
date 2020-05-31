@@ -1,6 +1,6 @@
 # escape=`
 
-FROM --plateform=windows/amd64 edgehog/git-adoptopenjdk8-jdk-hotspot:latest-windowsservercore-ltsc2016
+FROM --platform=windows/amd64 edgehog/git-adoptopenjdk8-jdk-hotspot:latest-windowsservercore-ltsc2016
 
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
 
